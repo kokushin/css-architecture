@@ -13,3 +13,8 @@
 @mixin typo-txt() {
   /* module styles */
 }
+
+.typo { @include typo }
+.typo-large { @include typo-large }
+.typo-logo { @include typo-logo }
+.typo-txt { @include typo-txt }

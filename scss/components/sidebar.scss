@@ -1,8 +1,5 @@
 @mixin sidebar() {
   /* component styles */
-  .text {
-    @include typo-txt;
-  }
 }
 
 .sidebar { @include sidebar }

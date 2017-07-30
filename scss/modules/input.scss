@@ -5,3 +5,6 @@
 @mixin input-large() {
   /* module styles */
 }
+
+.input { @include input }
+.input-large { @include input-large }
