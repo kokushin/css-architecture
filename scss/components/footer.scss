@@ -1,0 +1,8 @@
+@mixin footer() {
+  /* component styles */
+  .logo {
+    @include typo-logo;
+  }
+}
+
+.footer { @include footer }

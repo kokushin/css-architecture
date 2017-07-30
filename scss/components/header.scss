@@ -1,0 +1,15 @@
+@mixin header() {
+  /* component styles */
+  .logo {
+    @include typo-logo;
+  }
+  .text {
+    @include typo-txt;
+  }
+  .btn {
+    @include btn;
+    @include btn-primary;
+  }
+}
+
+.header { @include header }

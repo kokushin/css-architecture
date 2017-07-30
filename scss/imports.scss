@@ -1,0 +1,26 @@
+/**
+ * 1. bases
+ */
+@import "variable.scss";
+@import "reset.scss";
+
+/**
+ * 2. modules
+ */
+@import "modules/button.scss";
+@import "modules/typography.scss";
+@import "modules/input.scss";
+
+/**
+ * 3. components
+ */
+@import "components/header.scss";
+@import "components/footer.scss";
+@import "components/content.scss";
+@import "components/sidebar.scss";
+
+/**
+ * 4. pages
+ */
+@import "pages/index.scss";
+@import "pages/path/index.scss";

@@ -1,0 +1,8 @@
+@mixin content() {
+  /* component styles */
+  h2 {
+    @include typo-large;
+  }
+}
+
+.content { @include content }
