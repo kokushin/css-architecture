@@ -2,11 +2,11 @@
   /* base styles */
 }
 
-@mixin typo-large() {
+@mixin typo-logo() {
   /* module styles */
 }
 
-@mixin typo-logo() {
+@mixin typo-title() {
   /* module styles */
 }
 
@@ -15,6 +15,9 @@
 }
 
 .typo { @include typo }
-.typo-large { @include typo-large }
+
 .typo-logo { @include typo-logo }
+
+.typo-title { @include typo-title }
+
 .typo-txt { @include typo-txt }

@@ -1,5 +1,6 @@
-@mixin sidebar() {
+.sidebar {
   /* component styles */
+  .title {
+    @include typo-title;
+  }
 }
-
-.sidebar { @include sidebar }

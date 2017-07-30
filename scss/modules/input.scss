@@ -2,9 +2,10 @@
   /* base styles */
 }
 
-@mixin input-large() {
+@mixin input-disabled() {
   /* module styles */
 }
 
 .input { @include input }
-.input-large { @include input-large }
+
+.input-disabled { @include input-disabled }

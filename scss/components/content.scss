@@ -1,5 +1,12 @@
-@mixin content() {
+.content {
   /* component styles */
+  .title {
+    @include typo-title;
+  }
+  .txt {
+    @include typo-txt;
+  }
+  .btn {
+    @include btn;
+  }
 }
-
-.content { @include content }

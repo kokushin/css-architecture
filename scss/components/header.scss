@@ -1,5 +1,9 @@
-@mixin header() {
+header {
   /* component styles */
+  .logo {
+    @include typo-logo;
+  }
+  .btn {
+    @include btn;
+  }
 }
-
-.header { @include header }
