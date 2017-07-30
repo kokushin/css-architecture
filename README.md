@@ -95,11 +95,11 @@
 
 ```css
 /* modules */
-.m-***
+.m-className
 
 /* components */
-.c-***
+.c-className
 
 /* state */
-.is-***
+.is-className
 ```
