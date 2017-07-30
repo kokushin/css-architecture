@@ -3,4 +3,7 @@
   .title {
     @include typo-title;
   }
+  .txt {
+    @include typo-txt;
+  }
 }

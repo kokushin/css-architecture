@@ -1,27 +1,27 @@
 /**
  * 1. bases
  */
-@import "variable.scss";
-@import "mixins.scss";
-@import "reset.scss";
+@import "variable";
+@import "mixins";
+@import "reset";
 
 /**
  * 2. modules
  */
-@import "modules/button.scss";
-@import "modules/typography.scss";
-@import "modules/input.scss";
+@import "modules/button";
+@import "modules/typography";
+@import "modules/input";
 
 /**
  * 3. components
  */
-@import "components/header.scss";
-@import "components/footer.scss";
-@import "components/content.scss";
-@import "components/sidebar.scss";
+@import "components/header";
+@import "components/footer";
+@import "components/content";
+@import "components/sidebar";
 
 /**
  * 4. pages
  */
-@import "pages/index.scss";
-@import "pages/path/index.scss";
+@import "pages/index";
+@import "pages/path/index";
