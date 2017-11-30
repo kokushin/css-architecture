@@ -9,23 +9,27 @@
 - `modules` は「部品」、`components` は「部品を組み合わせた製品」と捉えるとよい
 
 ```
-├── modules
-│   ├── button.scss
-│   ├── input.scss
-│   └── typography.scss
+├── _imports.scss
 ├── components
+│   ├── _import.scss
 │   ├── content.scss
 │   ├── footer.scss
 │   ├── header.scss
 │   └── sidebar.scss
-├── pages
-│   ├── index.scss
-│   └── path
-│       └── index.scss
-├── variables.scss
-├── mixins.scss
-├── reset.scss
-└── imports.scss
+├── core
+│   ├── _import.scss
+│   ├── core.scss
+│   ├── mixins.scss
+│   └── variables.scss
+├── modules
+│   ├── _import.scss
+│   ├── button.scss
+│   ├── input.scss
+│   └── typography.scss
+└── pages
+    ├── index.scss
+    └── single
+        └── index.scss
 ```
 
 ### imports
@@ -42,7 +46,7 @@
 ### modules
 
 - `modules` ディレクトリ内のファイルが該当する
-- ボタンやタイポグラフィといった「部品」単位で機能する最小限のスタイルを `@mixin` と専用のモジュールクラスに適用させる
+- ボタンやタイポグラフィといった「部品」単位で機能する最小限のスタイルを専用のモジュールクラスに適用させる
 - 大きさやカラーバリエーションなど細かく分解できるものも用意しておく
 
 ### components
@@ -105,4 +109,7 @@
 
 /* state */
 .is-className
+
+/* JavaScript */
+.js-className
 ```
