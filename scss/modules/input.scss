@@ -1,11 +1,11 @@
-@mixin input() {
+//
+// modules/input
+// -----------------------------------
+
+.input {
   /* base styles */
 }
 
-@mixin input-disabled() {
+.input-disabled {
   /* module styles */
 }
-
-.input { @include input }
-
-.input-disabled { @include input-disabled }

@@ -1,12 +1,17 @@
+//
+// components/content
+// -----------------------------------
+
 .content {
   /* component styles */
+
   .title {
-    @include typo-title;
+    /* override module styles */
   }
   .txt {
-    @include typo-txt;
+    /* override module styles */
   }
   .btn {
-    @include btn;
+    /* override module styles */
   }
 }

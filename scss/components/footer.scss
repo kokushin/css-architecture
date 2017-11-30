@@ -1,6 +1,11 @@
+//
+// components/footer
+// -----------------------------------
+
 .footer {
   /* component styles */
+
   .logo {
-    @include typo-logo;
+    /* override module styles */
   }
 }

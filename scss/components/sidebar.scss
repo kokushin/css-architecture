@@ -1,9 +1,14 @@
+//
+// components/sidebar
+// -----------------------------------
+
 .sidebar {
   /* component styles */
+
   .title {
-    @include typo-title;
+    /* override module styles */
   }
   .txt {
-    @include typo-txt;
+    /* override module styles */
   }
 }

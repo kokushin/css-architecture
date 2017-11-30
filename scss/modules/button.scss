@@ -1,17 +1,15 @@
-@mixin btn() {
+//
+// modules/button
+// -----------------------------------
+
+.btn {
   /* base styles */
 }
 
-@mixin btn-large() {
+.btn-large {
   /* module styles */
 }
 
-@mixin btn-primary() {
+.btn-primary {
   /* module styles */
 }
-
-.btn { @include btn }
-
-.btn-large { @include btn-large }
-
-.btn-primary { @include btn-primary }

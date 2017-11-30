@@ -1,9 +1,14 @@
-header {
+//
+// components/header
+// -----------------------------------
+
+.header {
   /* component styles */
+
   .logo {
-    @include typo-logo;
+    /* override module styles */
   }
   .btn {
-    @include btn;
+    /* override module styles */
   }
 }

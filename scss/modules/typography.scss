@@ -1,23 +1,19 @@
-@mixin typo() {
+//
+// modules/typography
+// -----------------------------------
+
+.typo {
   /* base styles */
 }
 
-@mixin typo-logo() {
+.typo-logo {
   /* module styles */
 }
 
-@mixin typo-title() {
+.typo-title {
   /* module styles */
 }
 
-@mixin typo-txt() {
+.typo-txt {
   /* module styles */
 }
-
-.typo { @include typo }
-
-.typo-logo { @include typo-logo }
-
-.typo-title { @include typo-title }
-
-.typo-txt { @include typo-txt }
