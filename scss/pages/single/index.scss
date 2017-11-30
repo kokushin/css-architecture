@@ -3,5 +3,7 @@
 // -----------------------------------
 
 .content {
-  /* override page styles */
+  .pages-single & {
+    /* override page styles */
+  }
 }
