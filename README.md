@@ -4,7 +4,7 @@
 
 ## SCSSファイルの構成
 
-構成は `imports`, `bases`, `modules`, `components`, `pages` に別けられる
+構成は `imports`, `cores`, `modules`, `components`, `pages` に別けられる
 
 - `modules` は「部品」、`components` は「部品を組み合わせた製品」と捉えるとよい
 
@@ -16,9 +16,9 @@
 │   ├── footer.scss
 │   ├── header.scss
 │   └── sidebar.scss
-├── core
+├── cores
 │   ├── _import.scss
-│   ├── core.scss
+│   ├── reset.scss
 │   ├── mixins.scss
 │   └── variables.scss
 ├── modules
@@ -37,10 +37,10 @@
 - `imports.scss` が該当する
 - 各scssファイルを `@import` するためのファイルで、プリプロセッサのエントリーポイントとして機能する最重要ファイル
 
-### bases
+### cores
 
 - `variables.scss` や `mixins.scss`、`reset.scss` などが該当する
-- 全体に影響するような記述が含まれる場合に指定される
+- 全体に影響するようなスタイルや設定ファイルを配置する
 - `imports.scss` 内では最初に読み込ませなければならない
 
 ### modules
